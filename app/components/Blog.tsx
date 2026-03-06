@@ -1,9 +1,9 @@
 const posts = [
   {
-    title: "My Journey Into Programming",
-    date: "March 2026",
-    description: "How I went from IT support to learning how to build things on the web.",
-    slug: "#",
+    title: "The Journey of How I Decided I Want to Be an IT Person",
+    date: "March 6, 2026",
+    description: "From CRT monitors and netkad $10 to HND in Information Systems — this is my story.",
+    slug: "/blog/my-it-journey",
   },
   {
     title: "Setting Up My Dev Environment on Linux",
