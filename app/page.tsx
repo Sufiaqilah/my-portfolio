@@ -11,7 +11,7 @@ export default function Home() {
           <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">Hello, I'm</p>
           <h1 className="text-5xl font-bold text-white mb-4">Sufi Aqilah</h1>
           <p className="text-xl text-neutral-400 max-w-lg mb-8">
-            IT Enthusiast from Brunei — I live and breathe everything tech. Code, hardware, databases, hacking, you name it. Currently leveling up my dev skills, one project at a time.
+            IT Enthusiast from Brunei, I live and breathe everything about technology. Coding, hardware, databases, hacking, you name it. Currently leveling up my dev skills, one project at a time.
           </p>
           <div className="flex gap-4">
             <a href="#projects" className="px-6 py-3 bg-white text-neutral-950 font-semibold text-sm rounded-lg hover:bg-neutral-200 transition-colors">

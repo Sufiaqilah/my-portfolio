@@ -11,10 +11,10 @@ export default function About() {
           <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">About Me</p>
           <h2 className="text-3xl font-bold text-white mb-6">A little bit about who I am</h2>
           <p className="text-neutral-400 leading-relaxed mb-4">
-            I'm Sufi Aqilah, an IT professional based in Brunei with a passion for all things tech — from writing code and managing databases to fixing hardware and exploring cybersecurity.
+            I'm Sufi Aqilah, an IT professional based in Brunei with a passion for all things tech, from writing code and managing databases to fixing hardware and exploring cybersecurity.
           </p>
           <p className="text-neutral-400 leading-relaxed">
-            When I'm not in front of a screen, you'll find me at the gym or gaming — a hobby I've had since I was 10. Currently on a mission to level up my programming skills and build cool things on the web.
+            When I'm not in front of a screen, you'll find me at the gym or gaming, a hobby I've had since I was 10. Currently on a mission to level up my programming skills and build cool things on the web.
           </p>
         </div>
         <div>
