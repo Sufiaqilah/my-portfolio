@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Personal portfolio of Sufi Aqilah, an IT professional from Brunei.",
     url: "https://sufiaqilah.com",
     siteName: "Sufi Aqilah",
-  }
+  },
 };
 
 export default function RootLayout({
