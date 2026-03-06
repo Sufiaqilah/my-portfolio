@@ -14,8 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sufi | Portfolio",
-  description: "Personal portfolio and blog",
+  title: "Sufi Aqilah | IT Enthusiast & Developer",
+  description: "Personal portfolio of Sufi Aqilah, an IT professional from Brunei. Specializing in web development, networking, hardware and cybersecurity.",
+  keywords: ["Sufi Aqilah", "IT Brunei", "Web Developer Brunei", "Portfolio"],
+  openGraph: {
+    title: "Sufi Aqilah | IT Enthusiast & Developer",
+    description: "Personal portfolio of Sufi Aqilah, an IT professional from Brunei.",
+    url: "https://sufiaqilah.com",
+    siteName: "Sufi Aqilah",
+  }
 };
 
 export default function RootLayout({
@@ -34,3 +41,4 @@ export default function RootLayout({
     </html>
   );
 }
+
