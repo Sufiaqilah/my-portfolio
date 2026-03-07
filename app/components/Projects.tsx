@@ -6,11 +6,11 @@ const projects = [
     link: "https://github.com/Sufiaqilah/rtxsltn",
   },
   {
-    title: "Personal Portfolio",
-    description: "The portfolio site you're looking at right now. Built from scratch using Next.js and Tailwind CSS, deployed on Vercel with a custom domain.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    link: "https://sufiaqilah.com",
-  },
+  title: "Emergency Exit Plan — IBTE Jefri Bolkiah",
+  description: "A produced video guide for building evacuation procedures during a fire emergency at IBTE Jefri Bolkiah. Involved full production planning, scripting, filming and editing.",
+  tags: ["Adobe Premiere Pro", "Video Production", "Planning"],
+  link: "#",
+},
   {
     title: "Coming Soon",
     description: "More projects in the pipeline — including a Brunei travel guide app and other tools. Stay tuned!",
