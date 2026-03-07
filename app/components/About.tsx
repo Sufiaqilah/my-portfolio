@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   const skills = [
     "JavaScript", "TypeScript", "React", "Next.js",
@@ -6,16 +8,27 @@ export default function About() {
 
   return (
     <section id="about" className="py-24 px-6 border-t border-neutral-800">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
-        <div>
-          <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">About Me</p>
-          <h2 className="text-3xl font-bold text-white mb-6">A little bit about who I am</h2>
-          <p className="text-neutral-400 leading-relaxed mb-4">
-            I'm Sufi Aqilah, an IT professional based in Brunei with a passion for all things tech, from writing code and managing databases to fixing hardware and exploring cybersecurity.
-          </p>
-          <p className="text-neutral-400 leading-relaxed">
-            When I'm not in front of a screen, you'll find me at the gym or gaming, a hobby I've had since I was 10. Currently on a mission to level up my programming skills and build cool things on the web.
-          </p>
+      <div className="max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row gap-12 items-center mb-16">
+          <div className="shrink-0">
+            <Image
+              src="/firsttendrillwood.jpg"
+              alt="Sufi Aqilah"
+              width={180}
+              height={180}
+              className="rounded-2xl object-cover"
+            />
+          </div>
+          <div>
+            <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">About Me</p>
+            <h2 className="text-3xl font-bold text-white mb-6">A little bit about who I am</h2>
+            <p className="text-neutral-400 leading-relaxed mb-4">
+              I'm Sufi Aqilah, an IT professional based in Brunei with a passion for all things tech, from writing code and managing databases to fixing hardware and exploring cybersecurity.
+            </p>
+            <p className="text-neutral-400 leading-relaxed">
+              When I'm not in front of a screen, you'll find me at the gym or gaming, a hobby I've had since I was 10. Currently on a mission to level up my programming skills and build cool things on the web.
+            </p>
+          </div>
         </div>
         <div>
           <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">Skills</p>
