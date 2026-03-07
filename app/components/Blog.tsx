@@ -5,18 +5,6 @@ const posts = [
     description: "From CRT monitors and netkad $10 to HND in Information Systems — this is my story.",
     slug: "/blog/my-it-journey",
   },
-  {
-    title: "Setting Up My Dev Environment on Linux",
-    date: "February 2026",
-    description: "A walkthrough of how I set up VS Code, Node.js and my terminal for web development.",
-    slug: "#",
-  },
-  {
-    title: "What I Learned Building My First Next.js App",
-    date: "January 2026",
-    description: "Lessons, mistakes and wins from building my first proper web project.",
-    slug: "#",
-  },
 ];
 
 export default function Blog() {

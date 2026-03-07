@@ -6,7 +6,7 @@ import Blog from "./components/Blog";
 export default function Home() {
   return (
     <main className="bg-neutral-950">
-      <section className="min-h-screen flex items-center justify-center px-6">
+      <section className="min-h-screen flex items-center justify-center px-6 pt-16">
         <div className="max-w-5xl w-full">
           <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">Hello, I'm</p>
           <h1 className="text-5xl font-bold text-white mb-4">Sufi Aqilah Zuffri</h1>
