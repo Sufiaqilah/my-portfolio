@@ -1,12 +1,12 @@
 const projects = [
   {
-    title: "Rotex Solution",
+    title: "Rotex Solution (Final Year Project Politeknik)",
     description: "A web-based system for renewing driving licenses and vehicle licenses in Brunei, inspired by TransportBN. Built with group as a final year project at Politeknik Brunei.",
     tags: ["Laravel", "PHP", "JavaScript", "CSS", "MySQL"],
     link: "https://github.com/Sufiaqilah/rtxsltn",
   },
   {
-  title: "Emergency Exit Plan — IBTE Jefri Bolkiah",
+  title: "Emergency Exit Plan for IBTE Jefri Bolkiah IT Campus (Final Year Project)",
   description: "A produced video guide for building evacuation procedures during a fire emergency at IBTE Jefri Bolkiah. Involved full production planning, scripting, filming and editing.",
   tags: ["Adobe Premiere Pro", "Video Production", "Planning"],
   link: "#",
