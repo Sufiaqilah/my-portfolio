@@ -38,8 +38,11 @@ export default function Footer() {
           ))}
         </div>
         <div className="flex items-center justify-between text-neutral-600 text-sm">
-          <span>© 2026 Sufi Aqilah</span>
-          <span>The guy with a female name</span>
+            <span>© 2026 Sufi Aqilah Zuffri</span>
+            <div className="flex gap-4">
+                <a href="https://github.com/Sufiaqilah" target="_blank" className="hover:text-neutral-300 transition-colors">GitHub</a>
+                <a href="https://www.linkedin.com/in/sufi-aqilah/" target="_blank" className="hover:text-neutral-300 transition-colors">LinkedIn</a>
+            </div>
         </div>
       </div>
     </footer>
