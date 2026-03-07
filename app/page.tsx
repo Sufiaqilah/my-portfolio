@@ -9,7 +9,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center px-6">
         <div className="max-w-5xl w-full">
           <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">Hello, I'm</p>
-          <h1 className="text-5xl font-bold text-white mb-4">Sufi Aqilah</h1>
+          <h1 className="text-5xl font-bold text-white mb-4">Sufi Aqilah Zuffri</h1>
           <p className="text-xl text-neutral-400 max-w-lg mb-8">
             IT Enthusiast from Brunei, I live and breathe everything about technology. Coding, hardware, databases, hacking, you name it. Currently leveling up my dev skills, one project at a time.
           </p>
