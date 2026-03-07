@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sufi Aqilah | IT Enthusiast & Developer",
+  title: "Sufi Aqilah Zuffri | IT Enthusiast",
   description: "Personal portfolio of Sufi Aqilah, an IT professional from Brunei. Specializing in web development, networking, hardware and cybersecurity.",
   keywords: ["Sufi Aqilah", "IT Brunei", "Web Developer Brunei", "Portfolio"],
   openGraph: {
