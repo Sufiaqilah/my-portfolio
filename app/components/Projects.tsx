@@ -1,20 +1,20 @@
 const projects = [
   {
-    title: "Project One",
-    description: "A short description of what this project does and what tech was used to build it.",
-    tags: ["Next.js", "Tailwind", "TypeScript"],
-    link: "#",
+    title: "Rotex Solution",
+    description: "A web-based system for renewing driving licenses and vehicle licenses in Brunei, inspired by TransportBN. Built with group as a final year project at Politeknik Brunei.",
+    tags: ["Laravel", "PHP", "JavaScript", "CSS", "MySQL"],
+    link: "https://github.com/Sufiaqilah/rtxsltn",
   },
   {
-    title: "Project Two",
-    description: "A short description of what this project does and what tech was used to build it.",
-    tags: ["Python", "SQL", "Linux"],
-    link: "#",
+    title: "Personal Portfolio",
+    description: "The portfolio site you're looking at right now. Built from scratch using Next.js and Tailwind CSS, deployed on Vercel with a custom domain.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://sufiaqilah.com",
   },
   {
-    title: "Project Three",
-    description: "A short description of what this project does and what tech was used to build it.",
-    tags: ["React", "Node.js", "API"],
+    title: "Coming Soon",
+    description: "More projects in the pipeline — including a Brunei travel guide app and other tools. Stay tuned!",
+    tags: ["In Progress"],
     link: "#",
   },
 ];
