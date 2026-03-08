@@ -1,12 +1,12 @@
 "use client";
-import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 import { useState } from "react";
 
 const photos = [
-  { src: "/2q.jpg", alt: "Custom PC Build", caption: "One of the custom PCs built for a customer in my own personal time" },
-  { src: "/3q.jpg", alt: "Best Sale Award", caption: "Awarded best sale of the month by Dell and Netcom" },
-  { src: "/4q.jpg", alt: "PC Parts", caption: "Showcasing the PC parts before being built for a customer" },
-  { src: "/5q.jpg", alt: "Wood PLC Exhibition", caption: "Representing Wood PLC at the Climate Change & Energy Exhibition 2022" },
+  { src: "2q_lzo9zv", alt: "Custom PC Build", caption: "One of the custom PCs built for a customer in my own personal time" },
+  { src: "3q_xi55qr", alt: "Best Sale Award", caption: "Awarded best sale of the month by Dell and Netcom" },
+  { src: "4q_antrn8", alt: "PC Parts", caption: "Showcasing the PC parts before being built for a customer" },
+  { src: "5q_nelyxe", alt: "Wood PLC Exhibition", caption: "Representing Wood PLC at the Climate Change & Energy Exhibition 2022" },
 ];
 
 export default function Gallery() {
@@ -15,13 +15,13 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-24 px-6 border-t border-neutral-800">
       <div className="max-w-5xl mx-auto">
-        <p className="text-neutral-500 text-sm mb-3 tracking-widests uppercase">Gallery</p>
+        <p className="text-neutral-500 text-sm mb-3 tracking-widest uppercase">Gallery</p>
         <h2 className="text-3xl font-bold text-white mb-12">Photos</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {photos.map((photo) => (
             <div key={photo.src} className="flex flex-col gap-2 cursor-pointer" onClick={() => setSelected(photo)}>
               <div className="relative aspect-square overflow-hidden rounded-xl">
-                <Image
+                <CldImage
                   src={photo.src}
                   alt={photo.alt}
                   fill
@@ -41,7 +41,7 @@ export default function Gallery() {
           onClick={() => setSelected(null)}
         >
           <div className="relative w-full max-w-3xl aspect-square">
-            <Image
+            <CldImage
               src={selected.src}
               alt={selected.alt}
               fill

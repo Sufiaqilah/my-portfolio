@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { CldImage } from "next-cloudinary";;
 
 export default function About() {
   const skills = [
@@ -11,12 +11,12 @@ export default function About() {
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12 items-center mb-16">
           <div className="shrink-0">
-            <Image
-              src="/firsttendrillwood.jpg"
-              alt="Sufi Aqilah"
-              width={180}
-              height={180}
-              className="rounded-2xl object-cover"
+            <CldImage
+            src="firsttendrillwood_gpfhu8"
+            alt="Sufi Aqilah"
+            width={180}
+            height={180}
+            className="rounded-2xl object-cover"
             />
           </div>
           <div>
