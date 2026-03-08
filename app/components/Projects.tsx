@@ -11,12 +11,12 @@ const projects = [
   tags: ["Adobe Premiere Pro", "Video Production", "Planning"],
   link: "#",
 },
-  {
-    title: "Coming Soon",
-    description: "More projects in the pipeline — including a Brunei travel guide app and other tools. Stay tuned!",
-    tags: ["In Progress"],
-    link: "#",
-  },
+    {
+    title: "Brunei to Malaysia Travel Guide",
+    description: "A step-by-step guide for Bruneians travelling to Malaysia by car, covering VMS, EES and MdAC registration processes.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "/bn-my-guide",
+    },
 ];
 
 export default function Projects() {
