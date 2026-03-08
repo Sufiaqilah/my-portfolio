@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
@@ -48,6 +49,7 @@ export default function Home() {
         </div>
       </section>
       <About />
+      <Gallery />
       <Projects />
       <Contact />
       <Blog />
