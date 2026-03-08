@@ -7,6 +7,8 @@ const photos = [
   { src: "3q_xi55qr", alt: "Best Sale Award", caption: "Awarded best sale of the month by Dell and Netcom" },
   { src: "4q_antrn8", alt: "PC Parts", caption: "Showcasing the PC parts before being built for a customer" },
   { src: "5q_nelyxe", alt: "Wood PLC Exhibition", caption: "Representing Wood PLC at the Climate Change & Energy Exhibition 2022" },
+  { src: "6q_x5tql3", alt: "ICT Youth Development Program", caption: "Photos with people in ICT Youth Development Program" },
+  { src: "7q_olyokp", alt: "Graduation Day", caption: "Graduation day with Mom & Dad during IBTE" },
 ];
 
 export default function Gallery() {
