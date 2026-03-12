@@ -19,7 +19,7 @@ const projects = [
     },
     {
   title: "Password Generator",
-  description: "A secure password generator with customizable options — length, uppercase, lowercase, numbers and symbols. Built with a dark hacker terminal aesthetic.",
+  description: "A secure password generator with customizable options such as length, uppercase, lowercase, numbers and symbols. Built with a dark hacker terminal aesthetic.",
   tags: ["Next.js", "TypeScript", "Tailwind CSS"],
   link: "/password-generator",
 },

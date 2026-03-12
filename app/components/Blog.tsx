@@ -2,7 +2,7 @@ const posts = [
   {
     title: "The Journey of How I Decided I Want to Be an IT Person",
     date: "March 6, 2026",
-    description: "From CRT monitors and netkad $10 to HND in Information Systems — this is my story.",
+    description: "From CRT monitors and netkad $10 to HND in Information Systems, this is my story.",
     slug: "/blog/my-it-journey",
   },
 ];
