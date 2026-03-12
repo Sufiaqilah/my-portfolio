@@ -39,7 +39,7 @@ const guides = [
       {
         step: 7,
         title: "Submit & Get QR Code",
-        description: "Review your details and submit. A QR code will be generated — save or screenshot it for use at the border.",
+        description: "Review your details and submit. A QR code will be generated then save or screenshot it for use at the border.",
       },
     ],
   },
@@ -63,7 +63,7 @@ const guides = [
       {
         step: 3,
         title: "Select Control Post",
-        description: "Choose which border control post you will be using — Sungai Tujoh, Ferry Serasa, Kuala Lurah, Ujong Jalan Temburong or Labu Temburong.",
+        description: "Choose which border control post you will be using which is either Sungai Tujoh, Ferry Serasa, Kuala Lurah, Ujong Jalan Temburong or Labu Temburong.",
       },
       {
         step: 4,
@@ -83,7 +83,7 @@ const guides = [
       {
         step: 7,
         title: "Make Payment & Get QR Code",
-        description: "Complete the payment. A QR code will be generated — save it for use at the border.",
+        description: "Complete the payment. A QR code will be generated and please save it for use at the border.",
       },
     ],
   },
@@ -102,7 +102,7 @@ const guides = [
       {
         step: 2,
         title: "Fill in Your Details",
-        description: "Fill in your personal details including your mode of travel — whether by flight, land or boat. Have your vehicle registration number ready.",
+        description: "Fill in your personal details including your mode of travel whether by flight, land or boat. Have your vehicle registration number ready.",
       },
       {
         step: 3,
