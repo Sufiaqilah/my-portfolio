@@ -3,7 +3,8 @@ import { CldImage } from "next-cloudinary";;
 export default function About() {
   const skills = [
     "JavaScript", "TypeScript", "React", "Next.js",
-    "Python", "SQL", "Linux", "Networking", "Hardware",
+  "Python", "SQL", "Linux", "Networking", "Hardware",
+  "FiveM", "Lua", "WinSCP", "Server Management",
   ];
 
   return (
@@ -26,7 +27,7 @@ export default function About() {
               I'm Sufi Aqilah, an IT professional based in Brunei with a passion for all things tech, from writing code and managing databases to fixing hardware and exploring cybersecurity.
             </p>
             <p className="text-neutral-400 leading-relaxed">
-              When I'm not in front of a screen, you'll find me at the gym or gaming, a hobby I've had since I was 10. Currently on a mission to level up my programming skills and build cool things on the web.
+              Beyond my day job, I run a FiveM server as a side hustle — handling server management via RocketNode and txAdmin, scripting custom vehicle handling, and managing files through WinSCP. When I'm not in front of a screen, you'll find me at the gym or gaming, a hobby I've had since I was 10.
             </p>
           </div>
         </div>
