@@ -16,6 +16,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-white transition-colors">Contact</a>
           <a href="#blog" className="hover:text-white transition-colors">Blog</a>
           <a href="/bn-my-guide" className="hover:text-white transition-colors">Brunei to Malaysia Guide</a>
+          <a href="/sign-translate" className="hover:text-white transition-colors">Sign Translate</a>
         </div>
 
         {/* Hamburger button */}
@@ -36,6 +37,7 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-white transition-colors">Contact</a>
           <a href="#blog" onClick={() => setIsOpen(false)} className="hover:text-white transition-colors">Blog</a>
           <a href="/bn-my-guide" onClick={() => setIsOpen(false)} className="hover:text-white transition-colors">Brunei to Malaysia Guide</a>
+          <a href="/sign-translate" onClick={() => setIsOpen(false)} className="hover:text-white transition-colors">Sign Translate</a>
         </div>
       )}
     </nav>
